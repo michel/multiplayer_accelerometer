@@ -1,0 +1,37 @@
+###Install [Node.js](http://nodejs.org)
+
+If you're using the [Brew](http://mxcl.github.com/homebrew) package management system, use that:
+
+    brew install node
+
+Or follow the [Node build instructions](https://github.com/joyent/node/wiki/Installation)
+
+###Install [Redis](http://code.google.com/p/redis)
+
+If you're using the Brew package, use that:
+
+    brew install redis
+    
+Or follow the [Redis build instructions](http://redis.io/download)
+
+###Install Juggernaut
+
+Juggernaut is distributed by [npm](http://npmjs.org), you'll need to [install that](http://npmjs.org) first if you haven't already.
+
+    npm install -g juggernaut
+
+###Install the [Juggernaut client gem](http://rubygems.org/gems/juggernaut)
+
+This step is optional, but if you're planning on using Juggernaut with Ruby, you'll need the gem.
+
+    gem install juggernaut
+
+##Running
+
+Start Redis:
+  
+    redis-server
+
+Start Juggernaut:
+
+    juggernaut

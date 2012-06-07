@@ -1,0 +1,10 @@
+!!! 5
+%html
+  %head
+    %title W00t desktop
+    = stylesheet_link_tag 'application', media: 'all'
+    = javascript_include_tag "http://#{request.host}:3400/application.js", 'application'
+    = javascript_include_tag "desktop"
+    = csrf_meta_tags
+  %body
+    = yield
